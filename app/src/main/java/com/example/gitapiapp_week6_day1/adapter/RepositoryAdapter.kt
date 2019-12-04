@@ -53,7 +53,6 @@ class RepositoryAdapter(val repositoryList: List<Repository>):
 
         val repoAvatar: ImageView = itemView.findViewById(R.id.avatar_imageview)
         val repoName: TextView = itemView.findViewById(R.id.repository_textview)
-//        val repoUrl : TextView = itemView.findViewById(R.id.repo_url_textview)
 
 
     }

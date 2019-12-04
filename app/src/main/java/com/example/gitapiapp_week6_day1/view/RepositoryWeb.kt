@@ -12,7 +12,6 @@ class RepositoryWeb : AppCompatActivity() {
         setContentView(R.layout.activity_repository_web)
 
         val intent = intent
-//        intent.getStringExtra("url")
 
         val repoWeb = findViewById<WebView>(R.id.repository_webview)
 

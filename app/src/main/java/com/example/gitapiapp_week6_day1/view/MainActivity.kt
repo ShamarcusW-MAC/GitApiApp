@@ -37,13 +37,8 @@ class MainActivity : AppCompatActivity(), GitContract.View {
         val adapter = RepositoryAdapter(repositories)
         repository_recyclerview.adapter = adapter
         val linear = LinearLayoutManager(this)
-//        linear.orientation = RecyclerView.HORIZONTAL
         repository_recyclerview.layoutManager = linear
-//        repository_recyclerview.setOnClickListener {
-//            val intent = Intent(this, RepoInfoActivity::class.java)
-//            startActivity(intent)
-//
-//        }
+
         Toast.makeText(this, repositories.size.toString(), Toast.LENGTH_SHORT).show()
     }
 
