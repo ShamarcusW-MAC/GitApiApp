@@ -1,10 +1,11 @@
-package com.example.gitapiapp_week6_day1
+package com.example.gitapiapp_week6_day1.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.gitapiapp_week6_day1.R
 import com.example.gitapiapp_week6_day1.adapter.RepositoryAdapter
 import com.example.gitapiapp_week6_day1.model.Owner
 import com.example.gitapiapp_week6_day1.model.Repository

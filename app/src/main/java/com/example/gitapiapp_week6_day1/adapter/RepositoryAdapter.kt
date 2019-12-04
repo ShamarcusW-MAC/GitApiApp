@@ -9,9 +9,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.gitapiapp_week6_day1.R
-import com.example.gitapiapp_week6_day1.RepositoryInfoActivity
+import com.example.gitapiapp_week6_day1.view.RepositoryInfoActivity
 import com.example.gitapiapp_week6_day1.model.Repository
-import kotlinx.android.synthetic.main.repository_item_layout.*
 
 class RepositoryAdapter(val repositoryList: List<Repository>):
     RecyclerView.Adapter<RepositoryAdapter.RepositoryViewHolder>() {

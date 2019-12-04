@@ -1,10 +1,10 @@
-package com.example.gitapiapp_week6_day1
+package com.example.gitapiapp_week6_day1.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
+import com.example.gitapiapp_week6_day1.R
 //import com.example.myapiapp.R
 import kotlinx.android.synthetic.main.repository_item_layout.*
 
