@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity(), GitContract.View {
 
     override fun displayRepositories(repositories: List<Repository>) {
         Log.d("tag", "dpr")
+
+        username_textview.text = repositories[0].owner.login + " 's Repositories"
         val adapter = RepositoryAdapter(repositories)
         repository_recyclerview.adapter = adapter
         val linear = LinearLayoutManager(this)
